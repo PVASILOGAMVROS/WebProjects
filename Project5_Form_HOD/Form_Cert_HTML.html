@@ -2,58 +2,62 @@
   <html lang="en">
 
   <head>
-      <div>
+    <div>
     <meta charset="UTF-8">
     
     <link rel="stylesheet" href="Form_Cert_CSS.css"/>
 
-  <h1 id="title"> HBO Survey </h1>
+    <h1 id="title"> HBO Survey </h1>
+	    
   <p id="description">This is a survey to help impove </p>
   </head>
+	  
   <body>
    <fieldset>
     <form id="survey-form">
 
-    <fieldset>
+     <fieldset>
       
       <label id="name-label" for="name">NAME <input type="text" id="name" placeholder="Write your name" required></label> 
 
-    <label id="email-label" for="email">E-mail <input type="email" id="email" placeholder="Type your mail" required></label>
+      <label id="email-label" for="email">E-mail <input type="email" id="email" placeholder="Type your mail" required></label>
 
-   <label id="number-label" for="age">Age(Optional)<input type="number" id="number" placeholder="Type age"min="10" max="99"></label>
+      <label id="number-label" for="age">Age(Optional)<input type="number" id="number" placeholder="Type age"min="10" max="99"></label>
 
     </fieldset>
     
-     <!--- STEP 14 ---->
-    <fieldset id="radio">
+     <!--- Create Radio Buttons  ---->
+	    
+      <fieldset id="radio">
 	 <p>Do you like the show;</p>
 	<label for="radiob"><input type="radio" value="Yes" name="recommendb" id="radiob" class="radiob"/>Yes</label>
 	<label for="radiob"><input type="radio" value="No" name="recommendb" id="radioc" class="radiob"/>No</label>
 
       </fieldset>
-    <fieldset>
+	    
+      <fieldset>
 	<p>select your favorite house:</p>
-        <select id="dropdown"> 
-          <option>HOUSE TARGARYEN</option>
-          <option>HOUSE LANNISTER</option>
-		  <option>HOUSE VELARYON</option>
-		  <option>HOUSE HIGHTOWER</option>
-		  </select>
+           <select id="dropdown"> 
+             <option>HOUSE TARGARYEN</option>
+             <option>HOUSE LANNISTER</option>
+	     <option>HOUSE VELARYON</option>
+             <option>HOUSE HIGHTOWER</option>
+	   </select>
       </fieldset>
 
       <fieldset>
         <p>Select who you want to see as King/Queen</p>
      
-         <label for="checka"><input id="checka" type="checkbox" name="check" class="checkbx"value="Rhaenyra Targaryen"/>Rhaenyra Targaryen</label>
-		 <label for="checkb"><input id="checkb" type="checkbox" name="check" class="checkbx"value="Rhaenyra Targaryen"/>Daemon Targaryen</label>
-		 <label for="checkc"><input id="checkc" type="checkbox" name="check" class="checkbx"value="Jason Lanister"/>Jason Lanister</label>
-         <label for="checkd"><input id="checkd" type="checkbox" name="check" class="checkbx"value="Corlys Velaryon"/>Corlys Velaryon</label>
+             <label for="checka"><input id="checka" type="checkbox" name="check" class="checkbx"value="Rhaenyra Targaryen"/>Rhaenyra Targaryen</label>
+	       <label for="checkb"><input id="checkb" type="checkbox" name="check" class="checkbx"value="Rhaenyra Targaryen"/>Daemon Targaryen</label>
+	         <label for="checkc"><input id="checkc" type="checkbox" name="check" class="checkbx"value="Jason Lanister"/>Jason Lanister</label>
+                   <label for="checkd"><input id="checkd" type="checkbox" name="check" class="checkbx"value="Corlys Velaryon"/>Corlys Velaryon</label>
         </fieldset>
         
        
         <textarea id="txtarea">Type your message here </textarea>
         </fieldset>
-		</fieldset>
+</fieldset>
     <input type="submit" class="button" id="submit" />
     </div> 
     </form>
