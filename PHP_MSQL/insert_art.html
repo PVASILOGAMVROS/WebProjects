@@ -1,0 +1,34 @@
+<html>
+<head> 
+<style>
+.button {
+  background-color: #4CAF50;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+</style>
+<title>Arts-InsertData</title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+</head>
+<body>
+  <h1>ART COLLECTION</h1>
+  <input type="button" class="button" onclick="window.location.href='http://vasilogamvros.atwebpages.com/phpergasia/FirstPage.html'";" value="HOME PAGE" />
+  <form action="insert_artdata.php" method="post">
+    <table border=0>
+      <tr><td>CODE</td><td><input type=text name=Code maxlength=13 size=13><br></td></tr>
+      <tr><td>Kαλλιτέχνης</td><td> <input type=text name=Artist maxlength=30 size=30><br></td></tr>
+      <tr><td>Τίτλος</td><td> <input type=text name=Title maxlength=60 size=30><br></td></tr>
+	  <tr><td>Έτος</td><td> <input type=text name=Year maxlength=4 size=30><br></td></tr>
+      <tr><td>Τιμή $</td><td><input type=text name=Price maxlength=7 size=7><br></td></tr>
+      <tr><td colspan=2><input type=submit value="Εισαγωγή"></td></tr>
+    </table> 
+  </form>
+</body>
+</html>

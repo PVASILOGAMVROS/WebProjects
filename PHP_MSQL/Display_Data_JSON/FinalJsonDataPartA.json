@@ -1,0 +1,48 @@
+[    
+  
+	
+  {
+     "title":"The Last Judgement",
+     "artist":"Michelangelo ",
+     "year":"1541",
+     "code":"556",
+     "price":"8000$"
+  },
+  {
+     "title":"Deposition of Christ",
+     "artist":"Rafael",
+     "year":"1507",
+     "code":"557",
+     "price":"900$"
+  },
+    
+    
+  {
+     "title":"Divine Comedy",
+     "artist":"Sandro Botticelli",
+     "year":"1485",
+     "code":"558",
+     "price":"1900$"
+  },
+  {  "title":"The Birth of Venus",
+      "artist":"Sandro Botticelli ",
+      "year":"1485",
+      "code":"559",
+      "price":"2900$"
+  },
+    
+  {  "title":"Bacchus and Ariadne",
+     "artist":"Titian",
+     "year":"1523",
+     "code":"560",
+     "price":"3955$"
+  },
+  {   
+
+     "title":"Mona Lisa ", 
+     "artist": "Leonardo da Vinci", 
+     "year":"1517", 
+     "code":" 555",
+     "price":"650$"
+  }
+]

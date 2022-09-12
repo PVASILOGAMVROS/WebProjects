@@ -1,0 +1,44 @@
+
+<!DOCTYPE html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<style>
+.button {
+  background-color: #4CAF50;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+</style>
+</head>
+
+<body>
+
+<h1>Art Collection – Αναζήτηση Έργου</h1>
+<input type="button" class="button" onclick="window.location.href='http://vasilogamvros.atwebpages.com/phpergasia/FirstPage.html'";" value="HOME PAGE" />
+
+
+<input type="button" class="button" onclick="window.location.href='http://vasilogamvros.atwebpages.com/phpergasia/all_results.php'";" value="Display All DATA" />	
+<form method="POST" action="searchart.php">
+  <p>Επιλέξτε τύπο αναζήτησης: 
+    <select size="1" name="searchtype">
+      <option>Code</option>
+      <option>Artist</option>
+      <option>Title</option>
+	  <option>Year</option>
+	  <option>Price</option>
+		 
+    </select>
+  </p>
+  Εισάγετε το κείμενο αναζήτησης: <input type="text" name="keyword">
+  <p><input type="submit" value="Submit"></p>
+</form>
+
+</body>
+</html>

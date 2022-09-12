@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<head>
+
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+
+</head>
+<style>
+.button {
+  background-color: #4CAF50;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+</style>
+
+<body>
+
+<h1>Art Collection – Διαγραφή Έργου</h1>
+<input type="button" class="button" onclick="window.location.href='http://vasilogamvros.atwebpages.com/phpergasia/FirstPage.html'";" value="HOME PAGE" />
+<form method="POST" action="DELETE_ARTS.php">
+  <p>Επιλέξτε τύπο αναζήτησης: 
+    <select size="1" name="searchtype">
+      <option>Code</option>
+      <option>Artist</option>
+      <option>Title</option>
+	  <option>Year</option>
+	  <option>Price</option>
+		 
+    </select>
+  </p>
+  Εισάγετε το κείμενο αναζήτησης προς διαγραφή έργου : <input type="text" name="keyword">
+  <p><input type="submit" value="Submit"></p>
+</form>
+
+</body>
+</html>
